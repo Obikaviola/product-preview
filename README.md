@@ -38,7 +38,7 @@ This is how it looks on mobile
 ### Links
 
 - Solution URL: [My solution](https://your-solution-url.com)
-- Live Site URL: [live site of the product preview](https://your-live-site-url.com)
+- Live Site URL: [live site of the product preview](https://obikaviola.github.io/product-preview/)
 
 ## My process
 
