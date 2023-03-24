@@ -29,7 +29,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+This is how it looks on desktop size computers
+![](images\desktop-screenshot.png)
+
+This is how it looks on mobile
+![](images\mobile-screenshot.png)
 
 ### Links
 
@@ -80,7 +84,7 @@ I will look into building more projects using the grid container so I can be con
 
 ### Useful resources
 
-- [](https://www.example.com) - This is an amazing article which helped me finally understand how to use the picture element. I'd recommend it to anyone still learning this concept.
+- [The picture element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) - This is an amazing article which helped me finally understand how to use the picture element. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
