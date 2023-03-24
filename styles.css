@@ -39,7 +39,7 @@ body{
 
 }
 
-main, footer, header{
+section, footer, header{
     padding: 1.5rem;
 }
 
@@ -47,7 +47,7 @@ header{
     padding-bottom: 0.5rem;
 }
 
-main{
+section{
     padding-top: 0.5rem;
 }
 
