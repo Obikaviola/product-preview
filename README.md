@@ -30,10 +30,10 @@ Users should be able to:
 ### Screenshot
 
 This is how it looks on desktop size computers
-![](images\desktop-screenshot.png)
+![Desktop view](images\desktop-screenshot.png)
 
 This is how it looks on mobile
-![](images\mobile-screenshot.png)
+![Mobile view](images\mobile-screenshot.png)
 
 ### Links
 
