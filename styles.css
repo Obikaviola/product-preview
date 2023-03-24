@@ -51,7 +51,7 @@ section{
     padding-top: 0.5rem;
 }
 
-p{
+p, .main-para{
     color: hsl(228, 12%, 48%);
     padding-bottom: 0.7rem;
     font-size: 0.9rem;
