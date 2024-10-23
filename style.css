@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url(/assets/font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'fraunces';
+    src: url(/assets/font/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    -webkit-font-smoothing: antialiased;
+    padding: 1.3em;
+    background-color: hsl(30, 38%, 92%);
+    max-width: 400px;
+    margin: 0 auto;
+    color: hsl(212, 21%, 14%);
+}
+
+main{
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.5em;
+    margin-top: 0;
+    margin-bottom: 3em;
+}
+
+main>p{
+    color: hsl(228, 12%, 48%);
+    font-size: 1rem;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.7rem;
+}
+
+main>p:first-child{
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+
+h1{
+    padding: 0.2em 0;
+    font-family: 'fraunces', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 2.3rem;
+}
+
+.cost{
+    display: flex;
+    padding: 1em 0;
+}
+
+.cost > span:first-child{
+    font-size: 2em;
+    padding-right: 0.8em;
+    color: hsl(158, 36%, 37%);
+    font-family: 'fraunces', sans-serif;
+    font-weight: 700;
+}
+
+.cost > span:nth-child(2){
+    align-self: center;
+    text-decoration: line-through;
+}
+
+.btn{
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    place-content: center;
+    cursor: pointer;
+    padding-block: 1.3em;
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    border: none;
+    font-family: 'montserrat';
+    font-weight: 700;
+}
+
+.btn > img{
+    margin-right: 1em;
+}
+
+.btn:hover{
+    background-color: hsl(158, 93%, 12%);
+}
+
+.attribution { 
+    font-size: 1rem; text-align: center;
+    font-family: 'montserrat', sans-serif; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 600px){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 100vh;
+        place-content: center;
+        place-items: center;
+        padding: 0;
+        align-items: stretch;
+        max-width: 600px;
+    }
+
+    header, main{
+        flex: 1;
+        flex-basis: 50%;
+    }
+
+    picture{
+        font-size: 0;
+        width: 100%;
+    }
+
+    main{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 0 10px 10px 0;
+        padding-inline: 2em;
+        flex-basis: 50%;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    img, header, picture{
+        border-radius: 10px 0 0 10px;
+    }
+
+    footer{
+        flex-basis: 100%;
+        padding-top: 3em;
+    }
+}

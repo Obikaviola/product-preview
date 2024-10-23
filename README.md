@@ -12,10 +12,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -28,18 +25,16 @@ Users should be able to:
 
 ### Screenshot
 
-This is how it looks on desktop size computers
-![Desktop-view](images/desktop-screenshot.png)
+**Desktop Preview**
+![Desktop preview](/assets/images/sceeenshot-desktop.jpeg)
 
-
-
-This is how it looks on mobile
-![Mobile-view](images/mobile-screenshot.png)
+**Mobile Preview**
+![Mobile preview](/assets/images/screenshot-mobile.png)
 
 ### Links
 
-- Solution URL: [My solution](https://github.com/Obikaviola/product-preview)
-- Live Site URL: [live site of the product preview](https://obikaviola.github.io/product-preview/)
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -48,46 +43,33 @@ This is how it looks on mobile
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- Google Fonts
 
 ### What I learned
 
-For this project, I learned how to use the picture element and finally got to put my knowledge of grid after series of Youtube videos.
-
-Here are the code snippets of some of the new things I learned, see below:
-
-Got a bit confused on how to include different photos for different screen width and the code snippet helped me achieve the outcome I wanted.
+I learned how to style HTML responsively. I also learned how to use the picture tag and also got to find out that font-size affects the picture tag.
 
 ```html
-<picture>
-  <source media="(max-width:1023px)" srcset="images\image-product-mobile.jpg" />
-  <img src="images\image-product-desktop.jpg" class="product-image" />
-</picture>
+  <picture>
+    <source media="(min-width: 600px)" srcset="/assets/images/image-product-desktop.jpg">
+    <img src="/assets/images/image-product-mobile.jpg" alt="">
+  </picture>
 ```
 
-First time using a grid container and for this project I used the following code snippet below to achieve the desired outcome.
-
 ```css
-@media (min-width:1023px) {
-    .container{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 600px;
-        border-radius: 15px 15px 15px 15px;
+    picture{
+        font-size: 0;
+        width: 100%;
     }
 ```
 
 ### Continued development
 
-I will look into building more projects using the grid container so I can be confortable with them.
-
-### Useful resources
-
-- [The picture element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) - This is an amazing article which helped me finally understand how to use the picture element. I'd recommend it to anyone still learning this concept.
+I will continue to learn how to make responsive website and also learn JavaScript. I'm also looking forward to exploring the html tags that I haven't made use of and to also learn CSS grid.
 
 ## Author
 
+- Hashnode Blog - [Onyinyechi Viola Obika](https://obikaviola.hashnode.dev/)
 - Frontend Mentor - [@Obikaviola](https://www.frontendmentor.io/profile/Obikaviola)
-- Twitter - [@obika_viola](https://www.twitter.com/obika_viola)
+- LinkedIn - [Onyinyechi Obika](https://www.linkedin.com/in/onyinyechi-obika)
+- X - [@obika_viola](https://x.com/obika_viola)
