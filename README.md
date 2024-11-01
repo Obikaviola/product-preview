@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Obikaviola/product-preview/)
-- Live Site URL: [Add live site URL here](https://product-preview-ten-phi.vercel.app/)
+- Solution URL: [Solution](https://github.com/Obikaviola/product-preview/)
+- Live Site URL: [Live site](https://product-preview-ten-phi.vercel.app/)
 
 ## My process
 

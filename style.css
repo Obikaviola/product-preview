@@ -20,6 +20,11 @@ html{
 
 body{
     -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    place-content: center;
+    place-items: center;
     padding: 1.3em;
     background-color: hsl(30, 38%, 92%);
     max-width: 400px;
@@ -113,11 +118,12 @@ h1{
 @media (min-width: 600px){
     body{
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         min-height: 100vh;
         place-content: center;
         place-items: center;
-        padding: 0;
+        padding-inline: 1.5em;
         align-items: stretch;
         max-width: 600px;
     }
